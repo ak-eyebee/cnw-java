@@ -17,6 +17,6 @@ public class HealthEndpoint implements HealthIndicator {
            return Health.down().withDetail("Not healthy", 500).build();
           }
         */
-        return Health.up().withDetail("description", "Server is up and running fine").build();
+        return Health.up().withDetail("description", "Server is up and running fine but now I made changes").build();
     }
 }
