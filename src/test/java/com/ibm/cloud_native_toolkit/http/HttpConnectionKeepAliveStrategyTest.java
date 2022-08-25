@@ -206,7 +206,7 @@ public class HttpConnectionKeepAliveStrategyTest {
                 int value = 500;
 
                 assertEquals(
-                        Long.valueOf(500 * 1000),
+                        Long.valueOf(500L * 1000L),
                         classUnderTest.getTimeoutInMilliseconds(String.valueOf(value))
                 );
             }
